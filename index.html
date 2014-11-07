@@ -6,42 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Chase : ">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="flat-ui/css/vendor/bootstrap.min.css">
+      <link rel="stylesheet" href="flat-ui/css/flat-ui.css">
+      <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="stylesheets/stylesheet.css">
 
-    <title>Chase</title>
+    <title>Chase Anderson</title>
   </head>
 
   <body>
+  <nav class="navbar navbar-inverse serif" role="navigation">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img class="img-circle" id="profile-picture" src="images/profile_picture.jpg"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar">
+              <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <span class="caret"></span></a>
+                      <ul class="dropdown-menu sans-serif" role="menu">
+                          <li><a href="#">Nothing here yet.</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <span class="caret"></span></a>
+                      <ul class="dropdown-menu sans-serif" role="menu">
+                          <li><a href="http://github.com/acmanderson"><span class="fui-github"></span> GitHub</a></li>
+                          <li><a href="https://www.linkedin.com/profile/view?id=268937154"><span class="fui-linkedin"></span> LinkedIn</a></li>
+                          <li><a href="http://twitter.com/hijodeandres"><span class="fui-twitter"></span> Twitter</a></li>
+                          <li><a href="http://facebook.com/chase.anderson"><span class="fui-facebook"></span> Facebook</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <div class="container">
+      <h2 class="serif" id="hello-header">hello!</h2>
+      <h6 class="sans-serif">My name's Chase. I like programming and sort-of web design. I'm not really sure how you got here, since I haven't really shown this website to anybody. I'll probably have some projects listed here sometime soon.</h6>
+  </div>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/acmanderson">View on GitHub</a>
-
-          <h1 id="project_title">Chase</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="chase-anderson" class="anchor" href="#chase-anderson"><span class="octicon octicon-link"></span></a>Chase Anderson</h3>
-
-<p>This is my website that I'll probably put something on later. <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"></p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+  <script src="flat-ui/js/vendor/jquery.min.js"></script>
+  <script src="flat-ui/js/flat-ui.min.js"></script>
   </body>
 </html>
